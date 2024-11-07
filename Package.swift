@@ -21,6 +21,11 @@ let package = Package(
             name: "Sparkle",
             url: url,
             checksum: checksum
+        ),
+        .target(
+            name: "SparkleNoOp",
+            path: "Sparkle/SparkleNoOp",
+            sources: ["SparkleNoOp.swift"]
         )
     ]
 )
