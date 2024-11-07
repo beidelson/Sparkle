@@ -14,7 +14,11 @@ let package = Package(
     products: [
         .library(
             name: "Sparkle",
-            targets: ["Sparkle"])
+            targets: ["Sparkle"]),
+        .library(
+            name: "SparkleNoOp",
+            targets: ["SparkleNoOp"]
+        )
     ],
     targets: [
         .binaryTarget(
