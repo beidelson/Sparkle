@@ -28,7 +28,7 @@ let package = Package(
         ),
         .target(
             name: "SparkleNoOp",
-            path: "Sparkle/SparkleNoOp",
+            path: "SparkleNoOp",
             sources: ["SparkleNoOp.swift"]
         )
     ]
